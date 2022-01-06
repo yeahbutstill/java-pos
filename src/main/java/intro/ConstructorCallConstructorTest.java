@@ -11,7 +11,9 @@ public class ConstructorCallConstructorTest {
   }
 
   public static void main(String[] args) {
-      ConstructorCallConstructorTest
+    ConstructorCallConstructorTest test = new ConstructorCallConstructorTest();
+
+    ConstructorCallConstructorTest test1 = new ConstructorCallConstructorTest("ini test");
   }
 
   public void methodSederhana(String text) {
