@@ -18,7 +18,7 @@ public class Person {
     System.out.println(klonenganDani.getNama());
   }
 
-  public Long getId() {
+  public Long getId3() {
     return id;
   }
 
